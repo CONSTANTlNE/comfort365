@@ -4,11 +4,11 @@
             <div class="col-lg-12">
                 <div class="bg-cta-footer-one wrapper">
                     <div class="row align-items-center">
-                        <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                            <a href="#" class="logo-area-footer">
-                                <img src="frontendAssets/images/logo/logo-02.png" alt="logo">
-                            </a>
-                        </div>
+{{--                        <div class="col-lg-3 col-md-6 col-sm-6 col-12 ">--}}
+{{--                            <a style="padding: 0px!important" href="#" class="logo-area-footer">--}}
+{{--                                <img style="height: 200px" src="{{asset('frontendAssets/images/logo/logo_nobg.jpeg')}}" alt="logo">--}}
+{{--                            </a>--}}
+{{--                        </div>--}}
                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                             <!-- single contact area start -->
                             <div class="single-cta-area">
@@ -17,7 +17,7 @@
                                 </div>
                                 <div class="contact-info">
 {{--                                    <p>Phone Number</p>--}}
-                                    <a href="tel:+4733378901">(+202) 2156-2145</a>
+                                    <a href="tel:593365365">593365365</a>
                                 </div>
                             </div>
                             <!-- single contact area end -->
@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="contact-info">
 {{--                                    <p>Email Us Here</p>--}}
-                                    <a href="mailto:yourmail@example.com">info@diyer.com</a>
+                                    <a href="mailto:comfort365@gmail.com">comfort365@gmail.com</a>
                                 </div>
                             </div>
                             <!-- single contact area end -->
@@ -38,20 +38,19 @@
                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                             <!-- single contact area start -->
                             <div class="single-cta-area last">
-                                <div class="icon">
-                                    <i class="fa-regular fa-location-dot"></i>
-                                </div>
-                                <div class="contact-info">
+{{--                                <div class="icon">--}}
+{{--                                    <i class="fa-regular fa-location-dot"></i>--}}
+{{--                                </div>--}}
+{{--                                <div class="contact-info">--}}
 {{--                                    <p>Office Address</p>--}}
-                                    <a href="https://www.google.com/maps" target="_blank">251 Hilton, Berlin DE</a>
-                                </div>
+{{--                                    <a href="https://www.google.com/maps" target="_blank">251 Hilton, Berlin DE</a>--}}
+{{--                                </div>--}}
                             </div>
                             <!-- single contact area end -->
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
 {{--        <div class="row pt--90">--}}
 {{--            <div class="col-lg-12">--}}
@@ -207,7 +206,7 @@
         <div class="row">
             <div class="col-lg-12">
                 <div class="wrapper">
-                    <p>Copyright 2023. All Rights Reserved.</p>
+                    <p>Copyright 2025. All Rights Reserved.</p>
                 </div>
             </div>
         </div>

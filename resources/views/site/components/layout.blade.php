@@ -2,6 +2,7 @@
 <html lang="ka">
 
 <head>
+    <meta name="google-site-verification" content="uyovPUwj20Hp_diktI3quCOfrk_-BvR4sLxFO4Ygj1o" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,20 @@
     <link rel="shortcut icon" type="image/x-icon" href="frontendAssets/images/fav.png">
     <title>კომფორტ 365</title>
 
+    <meta name="description" content="სახლში კომფორტი იწყება გამართული კომუნიკაციებიდან">
+    <meta name="keywords" content="ცენტრალური გათბობის მონტაჟი, საქვაბე, საკანალიზაციო არხი, არხის გაჭრა, გაზის შეყვანა">
+
+    <!-- Open Graph (OG) Meta Tags for Social Media -->
+    <meta property="og:title" content="Your Page Title">
+    <meta property="og:description" content="ლიცენზირებული გაზის კომპანია">
+    <meta property="og:image" content="frontendAssets/images/logo/logo_nobg.jpeg">
+    <meta property="og:url" content="https://comfort365.ge">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Comfort 365">
+    <meta property="og:locale" content="ka">
+
+    <meta name="robots" content="index, follow"> <!-- For search engine indexing -->
+    <link rel="canonical" href="https://comfort365.ge">
 
     <!-- fontawesome css -->
     <link rel="stylesheet" href="frontendAssets/css/plugins/fontawesome-6.css">
@@ -66,14 +81,7 @@
 <div id="anywhere-home" class="">
 </div>
 
-<!-- progress area start -->
-<div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"
-              style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>
-    </svg>
-</div>
-<!-- progress area end -->
+
 
 
 <!-- pre loader start -->

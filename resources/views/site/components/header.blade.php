@@ -12,30 +12,30 @@
                         <div class="col-lg-9">
                             <div class="header-right-area">
                                 <!-- single info wrapper -->
-                                <div class="single-info-contact">
-                                    <i class="fa-light fa-clock"></i>
-                                    <div class="inner-content">
-                                        <span>24/7 Service Alltime</span>
-                                        <a href="#">
-                                            <h6 class="title">Mon (to) Sun: 9:00-5:00</h6>
-                                        </a>
-                                    </div>
-                                </div>
+{{--                                <div class="single-info-contact">--}}
+{{--                                    <i class="fa-light fa-clock"></i>--}}
+{{--                                    <div class="inner-content">--}}
+{{--                                        <span>24/7 Service Alltime</span>--}}
+{{--                                        <a href="#">--}}
+{{--                                            <h6 class="title">Mon (to) Sun: 9:00-5:00</h6>--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
                                 <!-- single info wrapper end -->
                                 <!-- single info wrapper -->
-                                <div class="single-info-contact map">
-                                    <i class="fa-light fa-location-dot"></i>
-                                    <div class="inner-content">
-                                        <span>Company Location</span>
-                                        <a href="https://www.google.com/maps" target="_blank">
-                                            <h6 class="title">16 Berlin, Germany</h6>
-                                        </a>
-                                    </div>
-                                </div>
+{{--                                <div class="single-info-contact map">--}}
+{{--                                    <i class="fa-light fa-location-dot"></i>--}}
+{{--                                    <div class="inner-content">--}}
+{{--                                        <span>Company Location</span>--}}
+{{--                                        <a href="https://www.google.com/maps" target="_blank">--}}
+{{--                                            <h6 class="title">16 Berlin, Germany</h6>--}}
+{{--                                        </a>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
                                 <!-- single info wrapper end -->
                                 <!-- button area start -->
                                 <div class="btn-area-header">
-                                    <a href="appoinment.html" class="rts-btn btn-primary with-arrow">Request Quote <i class="fa-regular fa-arrow-up-right"></i></a>
+                                    <a href="tel:551507697" class="rts-btn btn-primary with-arrow">Comfort 365 ლიცენიზრებული გაცის კომპანია</a>
                                 </div>
                                 <!-- button area end -->
                             </div>
@@ -120,8 +120,11 @@
 {{--                                    </nav>--}}
 {{--                                </div>--}}
                                 <div style="flex-direction: column!important;" class="actions-area">
-                                    <p style="font-size: 24px;color: black;font-weight: bolder;margin-bottom: 0">კომფორტ 365</p>
-                                    <p>წყლისა და გაზის კომპანია</p>
+{{--                                    <p style="font-size: 24px;color: black;font-weight: bolder;margin-bottom: 0">Comfort 365</p>--}}
+                                    <div class="btn-area-header mt-1">
+                                        <a href="tel:551507697" class="rts-btn btn-primary with-arrow mt-1">Comfort 365</a>
+                                    </div>
+{{--                                    <p class="text-center">წყლისა და გაზის კომპანია</p>--}}
 {{--                                    <div class="search-btn" id="search">--}}
 {{--                                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">--}}
 {{--                                            <path d="M15.75 14.7188L11.5625 10.5312C12.4688 9.4375 12.9688 8.03125 12.9688 6.5C12.9688 2.9375 10.0312 0 6.46875 0C2.875 0 0 2.9375 0 6.5C0 10.0938 2.90625 13 6.46875 13C7.96875 13 9.375 12.5 10.5 11.5938L14.6875 15.7812C14.8438 15.9375 15.0312 16 15.25 16C15.4375 16 15.625 15.9375 15.75 15.7812C16.0625 15.5 16.0625 15.0312 15.75 14.7188ZM1.5 6.5C1.5 3.75 3.71875 1.5 6.5 1.5C9.25 1.5 11.5 3.75 11.5 6.5C11.5 9.28125 9.25 11.5 6.5 11.5C3.71875 11.5 1.5 9.28125 1.5 6.5Z" fill="#1F1F25" />--}}

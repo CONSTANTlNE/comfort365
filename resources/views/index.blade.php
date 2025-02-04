@@ -16,11 +16,11 @@
             }
 
             .banner-cleaning-area.three {
-                background-image: url({{asset('frontendAssets/images/hero/10.jpg')}});
+                background-image: url({{asset('frontendAssets/images/hero/electric.jpg')}});
             }
 
             .banner-cleaning-area.four {
-                background-image: url({{asset('frontendAssets/images/hero/4.jpg')}});
+                background-image: url({{asset('frontendAssets/images/hero/firesafety.jpg')}});
             }
 
 
@@ -46,7 +46,7 @@
                                         <div class="banner-cleaning-content text-center">
                                             <span class="pre">ლიცენზირებული გაზის კომპანია</span>
                                             <h1 class="title">გაზის სამუშაოები</h1>
-                                            <a href="tel:551507697" class="rts-btn btn-primary">დაგვიკავშირდით</a>
+                                            <a aria-label="contact mobile phone" href="tel:593365365" class="rts-btn btn-primary">დაგვიკავშირდით</a>
                                         </div>
                                     </div>
                                 </div>
@@ -71,7 +71,7 @@
                                         <div class="banner-cleaning-content text-center">
                                             <span class="pre">ლიცენზირებული გაზის კომპანია</span>
                                             <h1 class="title">სანტექნიკა</h1>
-                                            <a href="tel:551507697" class="rts-btn btn-primary">დაგვიკავშირდით</a>
+                                            <a  aria-label="contact mobile phone" href="tel:593365365" class="rts-btn btn-primary">დაგვიკავშირდით</a>
                                         </div>
                                     </div>
                                 </div>
@@ -95,9 +95,8 @@
                                     <div class="col-lg-12">
                                         <div class="banner-cleaning-content text-center">
                                             <span class="pre">ლიცენზირებული გაზის კომპანია</span>
-
                                             <h1 class="title">ელექტრო სამუშაოები</h1>
-                                            <a href="tel:551507697" class="rts-btn btn-primary">დაგვიკავშირდით</a>
+                                            <a  aria-label="contact mobile phone" href="tel:593365365" class="rts-btn btn-primary">დაგვიკავშირდით</a>
                                         </div>
                                     </div>
                                 </div>
@@ -122,7 +121,7 @@
                                         <div class="banner-cleaning-content text-center">
                                             <span class="pre">ლიცენზირებული გაზის კომპანია</span>
                                             <h1 class="title">სახანძრო უსაფრთხოება</h1>
-                                            <a href="tel:551507697" class="rts-btn btn-primary">დაგვიკავშირდით</a>
+                                            <a  aria-label="contact mobile phone" href="tel:593365365" class="rts-btn btn-primary">დაგვიკავშირდით</a>
                                         </div>
                                     </div>
                                 </div>
@@ -149,7 +148,7 @@
                             <div class="shape">
                                 <img src="frontendAssets/images/about/shape.png" alt="shape">
                                 <div class="inner-content">
-                                    <h6>12</h6>
+                                    <p style="font-weight: bold;font-size: 22px">12</p>
                                     <p>წლიანი გამოცდილება</p>
                                 </div>
                             </div>
@@ -175,7 +174,7 @@
                                 გამოცდილების მქონე კადრით.
                             </p>
                             <div style="align-items: center!important;" class="experience text-center justify-content-center align-middle">
-                                <img src="frontendAssets/images/about/18.png" alt="about">
+                                <img style="height: 150px" src="frontendAssets/images/logo/logo_nobg.jpeg" alt="about">
                                 <p class="exp">
                                     სახლის კომფორტი იწყება
                                     <br>
@@ -184,17 +183,17 @@
                             </div>
                             <div style="align-items: center!important;" class="short-cta">
                                 <div class="call">
-                                    <a href="tel:551507697">
+                                    <a  aria-label="contact mobile phone" href="tel:593365365">
                                         <img src="frontendAssets/images/about/call.png" alt="call">
                                     </a>
                                     <div class="info">
-                                        <a href="tel:551507697" class="number">
-                                            {{--                                            <span>Call Directly 24/7</span>--}}
-                                            551-507-697
+                                        <a  aria-label="contact mobile phone" href="tel:593365365" class="number">
+                                            {{-- <span>Call Directly 24/7</span>--}}
+                                            593-365-365
                                         </a>
                                     </div>
                                 </div>
-                                <a href="tel:551507697" class="rts-btn btn-primary">დაგვიგავშირდით</a>
+                                <a  aria-label="contact mobile phone" href="tel:593365365" class="rts-btn btn-primary">დაგვიგავშირდით</a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +229,7 @@
                     <!-- single project area start -->
                     <div class="single-cleaning-project">
                         <a style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;"
-                           href="javascript:void(0)" class="thumbnail">
+                           href="#" onclick="this.preventDefault()" class="thumbnail">
                             <img style="max-height: 400px; width: 100%; object-fit: cover;"
                                  src="{{asset('frontendAssets/images/services/5.jpg')}}" alt="project">
                         </a>
@@ -248,7 +247,7 @@
                             {{--                                Air source heat pump system is that combines heating, cooling heating problem solutions.--}}
                             {{--                            </p>--}}
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -263,7 +262,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -281,13 +280,13 @@
                     <!-- single project area start -->
                     <div class="single-cleaning-project">
                         <a style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;"
-                           href="project-details.html" class="thumbnail">
+                           href="#" onclick="event.preventDefault()" class="thumbnail">
                             <img style="max-height: 400px; width: 100%; object-fit: cover;"
                                  src="{{asset('frontendAssets/images/services/santeqnika.jpg')}}"
                                  alt="plumbing service">
                         </a>
                         <div style="padding-left: 5px;padding-right: 10px" class="project-content-area">
-                            <a href="service-details.html">
+                            <a href="#" onclick="event.preventDefault()" >
                                 <h1 style="font-size: 24px!important;line-height: normal" class="title text-center">სანტექნიკა</h1>
                             </a>
                             <ul style="padding-left: 12px">
@@ -296,7 +295,7 @@
                                 <li class="disc">წყლის ჭების მოწყობა</li>
                             </ul>
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -311,7 +310,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -328,17 +327,17 @@
                 <section class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <!-- single project area start -->
                     <div class="single-cleaning-project">
-                        <a style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;"
-                           href="javascript:void(0)" class="thumbnail">
+                        <a  style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;"
+                            href="#" onclick="event.preventDefault()" class="thumbnail">
                             <img style="max-height: 400px; width: 100%; object-fit: cover;"
                                  src="{{asset('frontendAssets/images/services/gatboba.jpg')}}"
                                  alt="central heating and central cooling">
                         </a>
                         <div style="padding-left: 5px;padding-right: 10px" class="project-content-area">
-                            <a href="service-details.html">
+
                                 <h1 style="font-size: 24px!important;line-height: normal" class="title">
                                     გათბობა-გაგრილების სისტემების მონტაჟი </h1>
-                            </a>
+
                             <ul style="padding-left: 12px">
                                 <li class="disc">საყოფაცხოვრებო ცენტრალური გათბობის ქვაბების მონტაჟი</li>
                                 <li class="disc">ინდუსტრიული ცენტრალური გათბობის(საქვაბის) მონტაჟი</li>
@@ -349,7 +348,7 @@
                             {{--                                Air source heat pump system is that combines heating, cooling heating problem solutions.--}}
                             {{--                            </p>--}}
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -364,7 +363,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -381,14 +380,14 @@
                 <section class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <!-- single project area start -->
                     <div class="single-cleaning-project">
-                        <a href="project-details.html" class="thumbnail">
-                            <img src="frontendAssets/images/project/16.jpg" alt="leak detection">
+                        <a  style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;" href="#" onclick="event.preventDefault()" class="thumbnail">
+                            <img style="max-height: 400px; width: 100%; object-fit: cover;" src="frontendAssets/images/project/detect.jpg" alt="leak detection">
                         </a>
                         <div style="padding-left: 5px;padding-right: 10px" class="project-content-area">
-                            <a href="service-details.html">
+
                                 <h1 style="font-size: 24px!important;line-height: normal" class="title">დაზიანების
                                     დადგენა/აღმოფხვრა</h1>
-                            </a>
+
                             <ul style="padding-left: 12px">
                                 <li class="disc">გაზის და კანალიზაციის დაზიანების ადგილის დადგენა სპეციალური კამერით
                                 </li>
@@ -402,7 +401,7 @@
                             {{--                                Air source heat pump system is that combines heating, cooling heating problem solutions.--}}
                             {{--                            </p>--}}
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -417,7 +416,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -434,14 +433,15 @@
                 <section class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <!-- single project area start -->
                     <div class="single-cleaning-project">
-                        <a href="project-details.html" class="thumbnail">
-                            <img src="frontendAssets/images/project/16.jpg" alt="electrician service">
+                        <a style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;" href="#" onclick="event.preventDefault()" class="thumbnail">
+                            <img style="max-height: 400px; width: 100%; object-fit: cover;" src="frontendAssets/images/project/electric.jpg" alt="electrician service">
                         </a>
                         <div style="padding-left: 5px;padding-right: 10px" class="project-content-area">
-                            <a href="service-details.html">
-                                <h1 style="font-size: 24px!important;line-height: normal" class="title">ელექტრო
-                                    გაყვანილების მონტაჟი</h1>
-                            </a>
+
+                                <h1 style="font-size: 24px!important;line-height: normal" class="title text-center">
+                                    ელექტრო გაყვანილობის მონტაჟი
+                                </h1>
+
                             <ul style="padding-left: 12px">
                                 <li class="disc">პროექრირება</li>
                                 <li class="disc">შიდა დაქსელვა</li>
@@ -452,7 +452,7 @@
                             {{--                                Air source heat pump system is that combines heating, cooling heating problem solutions.--}}
                             {{--                            </p>--}}
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -467,7 +467,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -484,14 +484,14 @@
                 <section class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <!-- single project area start -->
                     <div class="single-cleaning-project">
-                        <a href="project-details.html" class="thumbnail">
-                            <img src="frontendAssets/images/project/16.jpg" alt="fire safety systems">
+                        <a style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;"  href="#" onclick="event.preventDefault()" class="thumbnail">
+                            <img style="max-height: 400px; width: 100%; object-fit: cover;" src="frontendAssets/images/project/fire.jpeg" alt="fire safety systems">
                         </a>
                         <div style="padding-left: 5px;padding-right: 10px" class="project-content-area">
-                            <a href="service-details.html">
-                                <h1 style="font-size: 24px!important;line-height: normal" class="title">სახანძრო
+
+                                <h1 style="font-size: 24px!important;line-height: normal" class="title text-center">სახანძრო
                                     უსაფრთხოების სიტემები</h1>
-                            </a>
+
                             <ul style="padding-left: 12px">
                                 <li class="disc">წყლის ტუმბოებისა და რეზერვუარების მონტაჟი</li>
                                 <li class="disc">კვამლის სენსორების მონტაჟი</li>
@@ -502,7 +502,7 @@
                             {{--                                Air source heat pump system is that combines heating, cooling heating problem solutions.--}}
                             {{--                            </p>--}}
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -517,7 +517,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -534,14 +534,14 @@
                 <section class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-12">
                     <!-- single project area start -->
                     <div class="single-cleaning-project">
-                        <a href="project-details.html" class="thumbnail">
-                            <img src="frontendAssets/images/project/16.jpg" alt="Ventilation systems">
+                        <a   style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;" href="#" onclick="event.preventDefault()" class="thumbnail">
+                            <img style="max-height: 400px; width: 100%; object-fit: cover;"  src="frontendAssets/images/project/saventilacio.jpeg" alt="Ventilation systems">
                         </a>
                         <div style="padding-left: 5px;padding-right: 10px" class="project-content-area">
-                            <a href="service-details.html">
-                                <h1 style="font-size: 24px!important;line-height: normal" class="title">სავენტილაციო
+
+                                <h1 style="font-size: 24px!important;line-height: normal" class="title text-center">სავენტილაციო
                                     არხების მოწყობა</h1>
-                            </a>
+
                             <ul style="padding-left: 12px">
                                 <li class="disc">საჰაერო მილები</li>
                                 <li class="disc">ჰაერის გამწოვი და შემშვები</li>
@@ -552,7 +552,7 @@
                             {{--                                Air source heat pump system is that combines heating, cooling heating problem solutions.--}}
                             {{--                            </p>--}}
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -567,7 +567,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -585,16 +585,16 @@
                     <!-- single project area start -->
                     <div class="single-cleaning-project">
                         <a style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;"
-                           href="javascript:void(0)" class="thumbnail">
+                           href="#" onclick="event.preventDefault()" class="thumbnail">
                             <img style="max-height: 400px; width: 100%; object-fit: cover;"
                                  src="{{asset('frontendAssets/images/services/documents.jpeg')}}"
                                  alt="help with documentation">
                         </a>
                         <div style="padding-left: 5px;padding-right: 10px" class="project-content-area">
-                            <a href="service-details.html">
-                                <h1 style="font-size: 24px!important;line-height: normal" class="title">დახმარება
+
+                                <h1 style="font-size: 24px!important;line-height: normal" class="title text-center">დახმარება
                                     ნებართვის მიღებაში</h1>
-                            </a>
+
                             <ul style="padding-left: 12px">
                                 <li class="disc">განაცხადის მომზადება</li>
                                 <li class="disc">საბუთების შეგროვება</li>
@@ -605,7 +605,7 @@
                             {{--                                Air source heat pump system is that combines heating, cooling heating problem solutions.--}}
                             {{--                            </p>--}}
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -620,7 +620,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -638,26 +638,25 @@
                     <!-- single project area start -->
                     <div class="single-cleaning-project">
                         <a style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;"
-                           href="javascript:void(0)" class="thumbnail">
+                           href="#" onclick="event.preventDefault()" class="thumbnail">
                             <img style="max-height: 400px; width: 100%; object-fit: cover;"
                                  src="{{asset('frontendAssets/images/services/miwa.jpeg')}}" alt="ground works">
                         </a>
                         <div style="padding-left: 5px;" class="project-content-area">
-                            <a href="service-details.html">
-                                <h1 style="font-size: 24px!important;line-height: normal" class="title">მიწის
+
+                                <h1 style="font-size: 24px!important;line-height: normal" class="title text-center">მიწის
                                     სამუშაოები</h1>
-                            </a>
+
                             <ul style="padding-left: 12px">
                                 <li class="disc">თხრილების გაჭრა</li>
                                 <li class="disc">სანიაღვრე არხების მოწყობა</li>
-                                <li class="disc">დემონტაჟი</li>
-
+                                <li class="disc">საკანალიზაციო ჭის მოწყობა</li>
                             </ul>
                             {{--                            <p class="disc">--}}
                             {{--                                Air source heat pump system is that combines heating, cooling heating problem solutions.--}}
                             {{--                            </p>--}}
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -672,7 +671,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -690,16 +689,16 @@
                     <!-- single project area start -->
                     <div class="single-cleaning-project text-center">
                         <a style="max-height: 400px!important; object-fit: cover; display: block; overflow: hidden;"
-                           href="javascript:void(0)" class="thumbnail">
+                           href="#" onclick="event.preventDefault()" class="thumbnail">
                             <img style="max-height: 400px; width: 100%; object-fit: cover;"
                                  src="{{asset('frontendAssets/images/services/weldng.jpg')}}" alt="welding services">
                         </a>
                         <div style="padding-left: 5px;padding-right: 10px;margin-left: 0" class="project-content-area">
-                            <a href="service-details.html">
+
                                 <h1 style="font-size: 24px!important;line-height: normal" class="title text-center">
-                                    აირშემდუღეღების, ელექტროშედუღების
+                                    აირშედუღების, ელექტროშედუღების
                                     და პოლიეთილენის მილების შედუღების მომსახურება</h1>
-                            </a>
+
                             <p>შედუღების ყველა სამუშაო იწარმოება ლიცენზირებული პროფესიონალების მიერ</p>
                             {{--                            <ul style="padding-left: 12px">--}}
                             {{--                                <li class="disc">შედუღების ყველა სამუშაო იწარმოება ლიცენზირებული პროფესიონალების მიერ--}}
@@ -709,7 +708,7 @@
                             {{--                                Air source heat pump system is that combines heating, cooling heating problem solutions.--}}
                             {{--                            </p>--}}
                             <div class="d-flex justify-content-center gap-4">
-                                <a href="tel:551507697">
+                                <a  aria-label="contact mobile phone" href="tel:593365365">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="36"
                                          viewBox="0 0 512 512">
                                         <path fill="#8f9799"
@@ -724,7 +723,7 @@
                                               d="M235.283 478.024h41.434c7.158 0 12.96-5.802 12.96-12.96v-.474c0-7.158-5.802-12.96-12.96-12.96h-41.434c-7.158 0-12.96 5.802-12.96 12.96v.474c0 7.158 5.802 12.96 12.96 12.96"></path>
                                     </svg>
                                 </a>
-                                <a href="https://wa.me/995511479914">
+                                <a aria-label="whatsapp contact" href="https://wa.me/995593365365">
                                     <svg viewBox="0 0 256 259" width="40" height="40" xmlns="http://www.w3.org/2000/svg"
                                          preserveAspectRatio="xMidYMid">
                                         <path d="m67.663 221.823 4.185 2.093c17.44 10.463 36.971 15.346 56.503 15.346 61.385 0 111.609-50.224 111.609-111.609 0-29.297-11.859-57.897-32.785-78.824-20.927-20.927-48.83-32.785-78.824-32.785-61.385 0-111.61 50.224-110.912 112.307 0 20.926 6.278 41.156 16.741 58.594l2.79 4.186-11.16 41.156 41.853-10.464Z"
@@ -808,7 +807,7 @@
                                 <!-- single end -->
                             </div>
                             <!-- service we provide area end -->
-                            <a href="tel:551507697" class="rts-btn btn-primary">დაგვიკავშირდით</a>
+                            <a  aria-label="contact mobile phone" href="tel:593365365" class="rts-btn btn-primary">დაგვიკავშირდით</a>
                         </div>
                     </div>
                 </div>
@@ -839,11 +838,11 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="title-area-center">
-                            <p class="pre">
-                                More About Diyer Company
-                            </p>
+{{--                            <p class="pre">--}}
+{{--                                More About Diyer Company--}}
+{{--                            </p>--}}
                             <h2 class="title">
-                                Read Our Latest Articles
+                                ჩვემნი ნამუშევრები
                             </h2>
                         </div>
                     </div>
@@ -853,27 +852,26 @@
                         <!-- single blog cleaning home area -->
                         <div class="rts-cl-home-blog">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="frontendAssets/images/blog/22.jpg" alt="blog-area">
+                                <img src="{{asset('frontendAssets/images/hero/2.jpg')}}" alt="blog-area">
                             </a>
-                            <div class="content-area">
+                            <div class="content-area text-center">
                                 <div class="head">
-                                    <div class="date-area single-info">
-                                        <i class="fa-light fa-calendar-days"></i>
-                                        <p>March 15, 2022</p>
-                                    </div>
+{{--                                    <div class="date-area single-info">--}}
+{{--                                        <i class="fa-light fa-calendar-days"></i>--}}
+{{--                                        <p>March 15, 2022</p>--}}
+{{--                                    </div>--}}
                                     <div class="tag-area single-info">
-                                        <i class="fa-light fa-tags"></i>
-                                        <p>Clean, Service</p>
+{{--                                        <p>საქვაბის მოწყობა</p>--}}
                                     </div>
                                 </div>
-                                <div class="body text-start">
+                                <div class="body text-center">
                                     <a href="blog-details.html">
-                                        <h5 class="title">This will give you peace mind
-                                            knowing that if something</h5>
+                                        <p class="title text-center">
+                                        ცენტრალური გათბობის სისტემა
+                                        </p>
                                     </a>
-                                    <a href="blog-details.html" class="rts-btn btn-primary">
-                                        Read Details
-                                        <i class="fa-regular fa-arrow-up-right"></i>
+                                    <a href="#" class="rts-btn btn-primary">
+                                        გალერეა
                                     </a>
                                 </div>
                             </div>
@@ -884,27 +882,26 @@
                         <!-- single blog cleaning home area -->
                         <div class="rts-cl-home-blog">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="frontendAssets/images/blog/23.jpg" alt="blog-area">
+                                <img src="{{asset('frontendAssets/images/hero/2.jpg')}}" alt="blog-area">
                             </a>
-                            <div class="content-area">
+                            <div class="content-area text-center">
                                 <div class="head">
-                                    <div class="date-area single-info">
-                                        <i class="fa-light fa-calendar-days"></i>
-                                        <p>March 15, 2022</p>
-                                    </div>
+                                    {{--                                    <div class="date-area single-info">--}}
+                                    {{--                                        <i class="fa-light fa-calendar-days"></i>--}}
+                                    {{--                                        <p>March 15, 2022</p>--}}
+                                    {{--                                    </div>--}}
                                     <div class="tag-area single-info">
-                                        <i class="fa-light fa-tags"></i>
-                                        <p>Clean, Service</p>
+                                        {{--                                        <p>საქვაბის მოწყობა</p>--}}
                                     </div>
                                 </div>
-                                <div class="body text-start">
+                                <div class="body text-center">
                                     <a href="blog-details.html">
-                                        <h5 class="title">They will give you peace mind
-                                            knowing that if something</h5>
+                                        <p class="title text-center">
+                                            ცენტრალური გათბობის სისტემა
+                                        </p>
                                     </a>
-                                    <a href="blog-details.html" class="rts-btn btn-primary">
-                                        Read Details
-                                        <i class="fa-regular fa-arrow-up-right"></i>
+                                    <a href="#" class="rts-btn btn-primary">
+                                        გალერეა
                                     </a>
                                 </div>
                             </div>
@@ -915,33 +912,33 @@
                         <!-- single blog cleaning home area -->
                         <div class="rts-cl-home-blog">
                             <a href="blog-details.html" class="thumbnail">
-                                <img src="frontendAssets/images/blog/24.jpg" alt="blog-area">
+                                <img src="{{asset('frontendAssets/images/hero/2.jpg')}}" alt="blog-area">
                             </a>
-                            <div class="content-area">
+                            <div class="content-area text-center">
                                 <div class="head">
-                                    <div class="date-area single-info">
-                                        <i class="fa-light fa-calendar-days"></i>
-                                        <p>March 15, 2022</p>
-                                    </div>
+                                    {{--                                    <div class="date-area single-info">--}}
+                                    {{--                                        <i class="fa-light fa-calendar-days"></i>--}}
+                                    {{--                                        <p>March 15, 2022</p>--}}
+                                    {{--                                    </div>--}}
                                     <div class="tag-area single-info">
-                                        <i class="fa-light fa-tags"></i>
-                                        <p>Clean, Service</p>
+                                        {{--                                        <p>საქვაბის მოწყობა</p>--}}
                                     </div>
                                 </div>
-                                <div class="body text-start">
+                                <div class="body text-center">
                                     <a href="blog-details.html">
-                                        <h5 class="title">She Makes give you peace
-                                            knowing if something</h5>
+                                        <p class="title text-center">
+                                            ცენტრალური გათბობის სისტემა
+                                        </p>
                                     </a>
-                                    <a href="blog-details.html" class="rts-btn btn-primary">
-                                        Read Details
-                                        <i class="fa-regular fa-arrow-up-right"></i>
+                                    <a href="#" class="rts-btn btn-primary">
+                                        გალერეა
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <!-- single blog cleaning home area end -->
                     </div>
+
                 </div>
             </div>
         </div>
@@ -949,7 +946,7 @@
 
         <!-- header style two -->
         <div id="side-bar" class="side-bar header-two">
-            <button class="close-icon-menu"><i class="far fa-times"></i></button>
+            <button aria-label="choose us" class="close-icon-menu"><i class="far fa-times"></i></button>
             <!-- inner menu area desktop start -->
             <div class="inner-main-wrapper-desk">
                 <div class="thumbnail">
@@ -969,112 +966,112 @@
                 </div>
             </div>
             <!-- mobile menu area start -->
-            <div class="mobile-menu-main">
-                <nav class="nav-main mainmenu-nav mt--30">
-                    <ul class="mainmenu metismenu" id="mobile-menu-active">
-                        <li class="has-droupdown">
-                            <a href="#" class="main">Home</a>
-                            <ul class="submenu mm-collapse">
-                                <a href="#" class="tag">Multipage</a>
-                                <li><a class="mobile-menu-link" href="index.html">Cleaning</a></li>
-                                <li><a class="mobile-menu-link"
-                                       href="https://themewant.com/products/html/drill/handyman/">Handyman</a>
-                                </li>
-                                <li><a class="mobile-menu-link"
-                                       href="https://themewant.com/products/html/drill/plumber/">Plumber</a>
-                                </li>
-                                <li><a class="mobile-menu-link"
-                                       href="https://themewant.com/products/html/drill/air-condition/">Air Condition</a>
-                                </li>
-                                <li><a class="mobile-menu-link"
-                                       href="https://themewant.com/products/html/drill/electric/">
-                                        Electric</a></li>
-                            </ul>
-                            <ul class="submenu mm-collapse">
-                                <a href="#" class="tag">Onepage</a>
-                                <li><a class="mobile-menu-link" href="onepage.html">Cleaning Onepage</a></li>
-                                <li><a class="mobile-menu-link"
-                                       href="https://themewant.com/products/html/drill/handyman/onepage.html">Handyman
-                                        Onepage</a></li>
-                                <li><a class="mobile-menu-link"
-                                       href="https://themewant.com/products/html/drill/plumber/onepage.html">Plumber
-                                        Onepage</a></li>
-                                <li><a class="mobile-menu-link"
-                                       href="https://themewant.com/products/html/drill/air-condition/onepage.html">Air
-                                        Condition Onepage</a></li>
-                                <li><a class="mobile-menu-link"
-                                       href="https://themewant.com/products/html/drill/electric/onepage.html"> Electric
-                                        Onepage</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="about.html" class="main">About</a>
-                        </li>
-                        <li class="has-droupdown">
-                            <a href="#" class="main">Services</a>
-                            <ul class="submenu mm-collapse">
-                                <li><a class="mobile-menu-link" href="service.html">Service</a></li>
-                                <li><a class="mobile-menu-link" href="service-details.html">Service Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-droupdown">
-                            <a href="#" class="main">Blog</a>
-                            <ul class="submenu mm-collapse">
-                                <li><a class="mobile-menu-link" href="blog.html">Blog</a></li>
-                                <li><a class="mobile-menu-link" href="blog-details.html">Blog Details</a></li>
-                            </ul>
-                        </li>
-                        <li class="has-droupdown">
-                            <a href="#" class="main">Pages</a>
-                            <ul class="submenu mm-collapse">
-                                <li><a class="mobile-menu-link" href="appoinment.html">Appoinment</a></li>
-                                <li><a class="mobile-menu-link" href="project.html">Project</a></li>
-                                <li class="has-droupdown third-lvl">
-                                    <a class="main" href="#">Project Details</a>
-                                    <ul class="submenu-third-lvl mm-collapse">
-                                        <li><a href="project-details.html"></a>Project Detaails</li>
-                                        <li><a href="project-details-gallery.html"></a>Details Gallery</li>
-                                        <li><a href="project-details-vedio.html"></a>Details Video</li>
-                                        <li><a href="project-details-carousel.html"></a>Details Carousel</li>
-                                    </ul>
-                                </li>
-                                <li><a class="mobile-menu-link" href="team.html">Team</a></li>
-                                <li><a class="mobile-menu-link" href="team-details.html">Team Details</a></li>
-                                <li><a class="mobile-menu-link" href="contact.html">Contact</a></li>
-                                <li><a class="mobile-menu-link" href="faq.html">Faq</a></li>
-                            </ul>
-                        </li>
-                        <li>
-                            <a href="contactus.html" class="main">Contact Us</a>
-                        </li>
-                    </ul>
-                </nav>
+{{--            <div class="mobile-menu-main">--}}
+{{--                <nav class="nav-main mainmenu-nav mt--30">--}}
+{{--                    <ul class="mainmenu metismenu" id="mobile-menu-active">--}}
+{{--                        <li class="has-droupdown">--}}
+{{--                            <a href="#" class="main">Home</a>--}}
+{{--                            <ul class="submenu mm-collapse">--}}
+{{--                                <a href="#" class="tag">Multipage</a>--}}
+{{--                                <li><a class="mobile-menu-link" href="index.html">Cleaning</a></li>--}}
+{{--                                <li><a class="mobile-menu-link"--}}
+{{--                                       href="https://themewant.com/products/html/drill/handyman/">Handyman</a>--}}
+{{--                                </li>--}}
+{{--                                <li><a class="mobile-menu-link"--}}
+{{--                                       href="https://themewant.com/products/html/drill/plumber/">Plumber</a>--}}
+{{--                                </li>--}}
+{{--                                <li><a class="mobile-menu-link"--}}
+{{--                                       href="https://themewant.com/products/html/drill/air-condition/">Air Condition</a>--}}
+{{--                                </li>--}}
+{{--                                <li><a class="mobile-menu-link"--}}
+{{--                                       href="https://themewant.com/products/html/drill/electric/">--}}
+{{--                                        Electric</a></li>--}}
+{{--                            </ul>--}}
+{{--                            <ul class="submenu mm-collapse">--}}
+{{--                                <a href="#" class="tag">Onepage</a>--}}
+{{--                                <li><a class="mobile-menu-link" href="onepage.html">Cleaning Onepage</a></li>--}}
+{{--                                <li><a class="mobile-menu-link"--}}
+{{--                                       href="https://themewant.com/products/html/drill/handyman/onepage.html">Handyman--}}
+{{--                                        Onepage</a></li>--}}
+{{--                                <li><a class="mobile-menu-link"--}}
+{{--                                       href="https://themewant.com/products/html/drill/plumber/onepage.html">Plumber--}}
+{{--                                        Onepage</a></li>--}}
+{{--                                <li><a class="mobile-menu-link"--}}
+{{--                                       href="https://themewant.com/products/html/drill/air-condition/onepage.html">Air--}}
+{{--                                        Condition Onepage</a></li>--}}
+{{--                                <li><a class="mobile-menu-link"--}}
+{{--                                       href="https://themewant.com/products/html/drill/electric/onepage.html"> Electric--}}
+{{--                                        Onepage</a></li>--}}
+{{--                            </ul>--}}
+{{--                        </li>--}}
+{{--                        <li>--}}
+{{--                            <a href="about.html" class="main">About</a>--}}
+{{--                        </li>--}}
+{{--                        <li class="has-droupdown">--}}
+{{--                            <a href="#" class="main">Services</a>--}}
+{{--                            <ul class="submenu mm-collapse">--}}
+{{--                                <li><a class="mobile-menu-link" href="service.html">Service</a></li>--}}
+{{--                                <li><a class="mobile-menu-link" href="service-details.html">Service Details</a></li>--}}
+{{--                            </ul>--}}
+{{--                        </li>--}}
+{{--                        <li class="has-droupdown">--}}
+{{--                            <a href="#" class="main">Blog</a>--}}
+{{--                            <ul class="submenu mm-collapse">--}}
+{{--                                <li><a class="mobile-menu-link" href="blog.html">Blog</a></li>--}}
+{{--                                <li><a class="mobile-menu-link" href="blog-details.html">Blog Details</a></li>--}}
+{{--                            </ul>--}}
+{{--                        </li>--}}
+{{--                        <li class="has-droupdown">--}}
+{{--                            <a href="#" class="main">Pages</a>--}}
+{{--                            <ul class="submenu mm-collapse">--}}
+{{--                                <li><a class="mobile-menu-link" href="appoinment.html">Appoinment</a></li>--}}
+{{--                                <li><a class="mobile-menu-link" href="project.html">Project</a></li>--}}
+{{--                                <li class="has-droupdown third-lvl">--}}
+{{--                                    <a class="main" href="#">Project Details</a>--}}
+{{--                                    <ul class="submenu-third-lvl mm-collapse">--}}
+{{--                                        <li><a href="project-details.html"></a>Project Detaails</li>--}}
+{{--                                        <li><a href="project-details-gallery.html"></a>Details Gallery</li>--}}
+{{--                                        <li><a href="project-details-vedio.html"></a>Details Video</li>--}}
+{{--                                        <li><a href="project-details-carousel.html"></a>Details Carousel</li>--}}
+{{--                                    </ul>--}}
+{{--                                </li>--}}
+{{--                                <li><a class="mobile-menu-link" href="team.html">Team</a></li>--}}
+{{--                                <li><a class="mobile-menu-link" href="team-details.html">Team Details</a></li>--}}
+{{--                                <li><a class="mobile-menu-link" href="contact.html">Contact</a></li>--}}
+{{--                                <li><a class="mobile-menu-link" href="faq.html">Faq</a></li>--}}
+{{--                            </ul>--}}
+{{--                        </li>--}}
+{{--                        <li>--}}
+{{--                            <a href="contactus.html" class="main">Contact Us</a>--}}
+{{--                        </li>--}}
+{{--                    </ul>--}}
+{{--                </nav>--}}
 
-                <div class="rts-social-style-one pl--20 mt--100">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-brands fa-youtube"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <i class="fa-brands fa-linkedin-in"></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+{{--                <div class="rts-social-style-one pl--20 mt--100">--}}
+{{--                    <ul>--}}
+{{--                        <li>--}}
+{{--                            <a href="#">--}}
+{{--                                <i class="fa-brands fa-facebook-f"></i>--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
+{{--                        <li>--}}
+{{--                            <a href="#">--}}
+{{--                                <i class="fa-brands fa-twitter"></i>--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
+{{--                        <li>--}}
+{{--                            <a href="#">--}}
+{{--                                <i class="fa-brands fa-youtube"></i>--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
+{{--                        <li>--}}
+{{--                            <a href="#">--}}
+{{--                                <i class="fa-brands fa-linkedin-in"></i>--}}
+{{--                            </a>--}}
+{{--                        </li>--}}
+{{--                    </ul>--}}
+{{--                </div>--}}
+{{--            </div>--}}
             <!-- mobile menu area end -->
         </div>
         <!-- header style two End -->
