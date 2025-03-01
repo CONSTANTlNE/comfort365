@@ -2,7 +2,9 @@
 
 @section('index')
     @push('css')
+
         <style>
+
             .banner-cleaning-area {
                 background-image: url({{asset('frontendAssets/images/hero/2.jpg')}});
                 background-repeat: no-repeat;
@@ -22,7 +24,6 @@
             .banner-cleaning-area.four {
                 background-image: url({{asset('frontendAssets/images/hero/firesafety.jpg')}});
             }
-
 
         </style>
     @endpush
@@ -144,18 +145,18 @@
                 <div class="col-lg-6 pr--70 pr_sm--0">
                     <div class="cleaning-home-about-left-img">
                         <div class="thumbnail">
-                            <img src="frontendAssets/images/about/17.jpg" alt="image-about">
-                            <div class="shape">
-                                <img src="frontendAssets/images/about/shape.png" alt="shape">
-                                <div class="inner-content">
-                                    <p style="font-weight: bold;font-size: 22px">12</p>
-                                    <p>წლიანი გამოცდილება</p>
+                            <img src="frontendAssets/images/about/constrworker.png" alt="image-about">
+                            <div style="width: 150px" class="shape">
+{{--                                <img style="width: 50px" src="frontendAssets/images/about/shape.png" alt="shape">--}}
+                                <div class="inner-content text-center">
+                                    <p style="font-weight: bold;font-size: 22px;color: black">12</p>
+                                    <p style="color: black!important;">წლიანი გამოცდილება</p>
                                 </div>
                             </div>
                         </div>
-                        <div class="small-image images">
-                            <img src="frontendAssets/images/about/20.jpg" alt="images">
-                        </div>
+{{--                        <div class="small-image images">--}}
+{{--                            <img style="width: 230px;height: 230px" src="frontendAssets/images/about/gas.jpg" alt="images">--}}
+{{--                        </div>--}}
                     </div>
                 </div>
                 <div class="col-lg-6  pt_sm--30">
@@ -234,10 +235,10 @@
                                  src="{{asset('frontendAssets/images/services/5.jpg')}}" alt="project">
                         </a>
                         <div style="padding-left: 5px" class="project-content-area">
-                            <a href="service-details.html">
+
                                 <h1 style="font-size: 24px!important;line-height: normal" class="title text-center">გაზის შიდა
                                     ქსელების პროექტირება და მონტაჟი</h1>
-                            </a>
+
                             <ul style="padding-left: 12px">
                                 <li class="disc">პროექტირება</li>
                                 <li class="disc">შიდა ქსელების მოწყობა</li>
@@ -754,19 +755,19 @@
                     <div class="why-choose-us-cleaing">
                         <div class="title-area-left">
 
-                            <h2 class="title">
+                            <h2 class="title text-center">
                                 რატომ უნდა აგვირჩიოთ ?
                             </h2>
                         </div>
                         <div class="inner-content">
-                            <p class="disc text-center">
+                            <p class="disc text-center w-100">
                                 უპირველეს ყოვლისა ხარისხი! ყველა ჩვენს ნამუშევარზე ვიძლევით შესაბამის გარანტიას და
                                 ვიღებთ პასუხისმგებლობას!
                             </p>
                             <!-- service we provide area start -->
-                            <div class="service-area-inner-short">
+                            <div class="service-area-inner-short text-center justify-content-start justify-content-lg-center">
                                 <!-- single -->
-                                <div class="single-c">
+                                <div style="margin-right:20px " class="single-c ">
                                     <div class="icon">
                                         <i class="fa-regular fa-check"></i>
                                     </div>
@@ -776,7 +777,7 @@
                                 </div>
                                 <!-- single end -->
                                 <!-- single -->
-                                <div class="single-c">
+                                <div  style="margin-right:20px " class="single-c">
                                     <div class="icon">
                                         <i class="fa-regular fa-check"></i>
                                     </div>
@@ -807,18 +808,21 @@
                                 <!-- single end -->
                             </div>
                             <!-- service we provide area end -->
+                            <div class="d-flex justify-content-center">
                             <a  aria-label="contact mobile phone" href="tel:593365365" class="rts-btn btn-primary">დაგვიკავშირდით</a>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 mt_md--30 mt_sm--30">
                     <div class="thumbnail-cleaning-choose-us">
                         <div class="thumbnail">
-                            <img src="frontendAssets/images/service/13.jpg" alt="service">
+                            <img src="frontendAssets/images/about/constrworker.png" alt="service">
                         </div>
-                        <div class="sm-img images">
-                            <img src="frontendAssets/images/service/14.jpg" alt="service">
-                        </div>
+{{--                        <div class="sm-img images">--}}
+{{--                            <img style="height: 150px" src="frontendAssets/images/logo/logo_nobg.jpeg" alt="about">--}}
+
+{{--                        </div>--}}
                     </div>
                 </div>
             </div>
@@ -842,103 +846,39 @@
 {{--                                More About Diyer Company--}}
 {{--                            </p>--}}
                             <h2 class="title">
-                                ჩვემნი ნამუშევრები
+                                ჩვენი ნამუშევრები
                             </h2>
                         </div>
                     </div>
                 </div>
-                <div class="row g-24 mt--20">
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <!-- single blog cleaning home area -->
-                        <div class="rts-cl-home-blog">
-                            <a href="blog-details.html" class="thumbnail">
-                                <img src="{{asset('frontendAssets/images/hero/2.jpg')}}" alt="blog-area">
-                            </a>
-                            <div class="content-area text-center">
-                                <div class="head">
-{{--                                    <div class="date-area single-info">--}}
-{{--                                        <i class="fa-light fa-calendar-days"></i>--}}
-{{--                                        <p>March 15, 2022</p>--}}
-{{--                                    </div>--}}
-                                    <div class="tag-area single-info">
-{{--                                        <p>საქვაბის მოწყობა</p>--}}
-                                    </div>
-                                </div>
-                                <div class="body text-center">
-                                    <a href="blog-details.html">
-                                        <p class="title text-center">
-                                        ცენტრალური გათბობის სისტემა
-                                        </p>
-                                    </a>
-                                    <a href="#" class="rts-btn btn-primary">
-                                        გალერეა
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single blog cleaning home area end -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <!-- single blog cleaning home area -->
-                        <div class="rts-cl-home-blog">
-                            <a href="blog-details.html" class="thumbnail">
-                                <img src="{{asset('frontendAssets/images/hero/2.jpg')}}" alt="blog-area">
-                            </a>
-                            <div class="content-area text-center">
-                                <div class="head">
-                                    {{--                                    <div class="date-area single-info">--}}
-                                    {{--                                        <i class="fa-light fa-calendar-days"></i>--}}
-                                    {{--                                        <p>March 15, 2022</p>--}}
-                                    {{--                                    </div>--}}
-                                    <div class="tag-area single-info">
-                                        {{--                                        <p>საქვაბის მოწყობა</p>--}}
-                                    </div>
-                                </div>
-                                <div class="body text-center">
-                                    <a href="blog-details.html">
-                                        <p class="title text-center">
-                                            ცენტრალური გათბობის სისტემა
-                                        </p>
-                                    </a>
-                                    <a href="#" class="rts-btn btn-primary">
-                                        გალერეა
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single blog cleaning home area end -->
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12">
-                        <!-- single blog cleaning home area -->
-                        <div class="rts-cl-home-blog">
-                            <a href="blog-details.html" class="thumbnail">
-                                <img src="{{asset('frontendAssets/images/hero/2.jpg')}}" alt="blog-area">
-                            </a>
-                            <div class="content-area text-center">
-                                <div class="head">
-                                    {{--                                    <div class="date-area single-info">--}}
-                                    {{--                                        <i class="fa-light fa-calendar-days"></i>--}}
-                                    {{--                                        <p>March 15, 2022</p>--}}
-                                    {{--                                    </div>--}}
-                                    <div class="tag-area single-info">
-                                        {{--                                        <p>საქვაბის მოწყობა</p>--}}
-                                    </div>
-                                </div>
-                                <div class="body text-center">
-                                    <a href="blog-details.html">
-                                        <p class="title text-center">
-                                            ცენტრალური გათბობის სისტემა
-                                        </p>
-                                    </a>
-                                    <a href="#" class="rts-btn btn-primary">
-                                        გალერეა
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- single blog cleaning home area end -->
-                    </div>
 
+
+                <div class="glide">
+                    <div class="glide__track" data-glide-el="track">
+                        <ul class="glide__slides">
+                            @foreach($works as $work)
+                                <li style="max-width: 400px" class="glide__slide">
+                                        <div style="max-width: 400px" class="rts-cl-home-blog">
+                                            <a  href="{{route('gallery')}}" class="thumbnail">
+                                                <img  src="{{$work->media->first()->getUrl()}}" alt="blog-area">
+                                            </a>
+                                            <div class="content-area text-center">
+                                                <div class="body text-center">
+                                                    <a href="blog-details.html">
+                                                        <p class="title text-center">
+                                                            {{$work->category}}
+                                                        </p>
+                                                    </a>
+                                                    <a href="{{route('gallery')}}" class="rts-btn btn-primary">
+                                                        გალერეა
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </li>
+                            @endforeach
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -965,114 +905,7 @@
                     </div>
                 </div>
             </div>
-            <!-- mobile menu area start -->
-{{--            <div class="mobile-menu-main">--}}
-{{--                <nav class="nav-main mainmenu-nav mt--30">--}}
-{{--                    <ul class="mainmenu metismenu" id="mobile-menu-active">--}}
-{{--                        <li class="has-droupdown">--}}
-{{--                            <a href="#" class="main">Home</a>--}}
-{{--                            <ul class="submenu mm-collapse">--}}
-{{--                                <a href="#" class="tag">Multipage</a>--}}
-{{--                                <li><a class="mobile-menu-link" href="index.html">Cleaning</a></li>--}}
-{{--                                <li><a class="mobile-menu-link"--}}
-{{--                                       href="https://themewant.com/products/html/drill/handyman/">Handyman</a>--}}
-{{--                                </li>--}}
-{{--                                <li><a class="mobile-menu-link"--}}
-{{--                                       href="https://themewant.com/products/html/drill/plumber/">Plumber</a>--}}
-{{--                                </li>--}}
-{{--                                <li><a class="mobile-menu-link"--}}
-{{--                                       href="https://themewant.com/products/html/drill/air-condition/">Air Condition</a>--}}
-{{--                                </li>--}}
-{{--                                <li><a class="mobile-menu-link"--}}
-{{--                                       href="https://themewant.com/products/html/drill/electric/">--}}
-{{--                                        Electric</a></li>--}}
-{{--                            </ul>--}}
-{{--                            <ul class="submenu mm-collapse">--}}
-{{--                                <a href="#" class="tag">Onepage</a>--}}
-{{--                                <li><a class="mobile-menu-link" href="onepage.html">Cleaning Onepage</a></li>--}}
-{{--                                <li><a class="mobile-menu-link"--}}
-{{--                                       href="https://themewant.com/products/html/drill/handyman/onepage.html">Handyman--}}
-{{--                                        Onepage</a></li>--}}
-{{--                                <li><a class="mobile-menu-link"--}}
-{{--                                       href="https://themewant.com/products/html/drill/plumber/onepage.html">Plumber--}}
-{{--                                        Onepage</a></li>--}}
-{{--                                <li><a class="mobile-menu-link"--}}
-{{--                                       href="https://themewant.com/products/html/drill/air-condition/onepage.html">Air--}}
-{{--                                        Condition Onepage</a></li>--}}
-{{--                                <li><a class="mobile-menu-link"--}}
-{{--                                       href="https://themewant.com/products/html/drill/electric/onepage.html"> Electric--}}
-{{--                                        Onepage</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="about.html" class="main">About</a>--}}
-{{--                        </li>--}}
-{{--                        <li class="has-droupdown">--}}
-{{--                            <a href="#" class="main">Services</a>--}}
-{{--                            <ul class="submenu mm-collapse">--}}
-{{--                                <li><a class="mobile-menu-link" href="service.html">Service</a></li>--}}
-{{--                                <li><a class="mobile-menu-link" href="service-details.html">Service Details</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                        <li class="has-droupdown">--}}
-{{--                            <a href="#" class="main">Blog</a>--}}
-{{--                            <ul class="submenu mm-collapse">--}}
-{{--                                <li><a class="mobile-menu-link" href="blog.html">Blog</a></li>--}}
-{{--                                <li><a class="mobile-menu-link" href="blog-details.html">Blog Details</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                        <li class="has-droupdown">--}}
-{{--                            <a href="#" class="main">Pages</a>--}}
-{{--                            <ul class="submenu mm-collapse">--}}
-{{--                                <li><a class="mobile-menu-link" href="appoinment.html">Appoinment</a></li>--}}
-{{--                                <li><a class="mobile-menu-link" href="project.html">Project</a></li>--}}
-{{--                                <li class="has-droupdown third-lvl">--}}
-{{--                                    <a class="main" href="#">Project Details</a>--}}
-{{--                                    <ul class="submenu-third-lvl mm-collapse">--}}
-{{--                                        <li><a href="project-details.html"></a>Project Detaails</li>--}}
-{{--                                        <li><a href="project-details-gallery.html"></a>Details Gallery</li>--}}
-{{--                                        <li><a href="project-details-vedio.html"></a>Details Video</li>--}}
-{{--                                        <li><a href="project-details-carousel.html"></a>Details Carousel</li>--}}
-{{--                                    </ul>--}}
-{{--                                </li>--}}
-{{--                                <li><a class="mobile-menu-link" href="team.html">Team</a></li>--}}
-{{--                                <li><a class="mobile-menu-link" href="team-details.html">Team Details</a></li>--}}
-{{--                                <li><a class="mobile-menu-link" href="contact.html">Contact</a></li>--}}
-{{--                                <li><a class="mobile-menu-link" href="faq.html">Faq</a></li>--}}
-{{--                            </ul>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="contactus.html" class="main">Contact Us</a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </nav>--}}
 
-{{--                <div class="rts-social-style-one pl--20 mt--100">--}}
-{{--                    <ul>--}}
-{{--                        <li>--}}
-{{--                            <a href="#">--}}
-{{--                                <i class="fa-brands fa-facebook-f"></i>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="#">--}}
-{{--                                <i class="fa-brands fa-twitter"></i>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="#">--}}
-{{--                                <i class="fa-brands fa-youtube"></i>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                        <li>--}}
-{{--                            <a href="#">--}}
-{{--                                <i class="fa-brands fa-linkedin-in"></i>--}}
-{{--                            </a>--}}
-{{--                        </li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-            <!-- mobile menu area end -->
         </div>
         <!-- header style two End -->
 

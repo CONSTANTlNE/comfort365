@@ -35,7 +35,14 @@
                                 <!-- single info wrapper end -->
                                 <!-- button area start -->
                                 <div class="btn-area-header">
-                                    <a href="tel:551507697" class="rts-btn btn-primary with-arrow">Comfort 365 ლიცენიზრებული გაცის კომპანია</a>
+                                    <a href="tel:593365365" class="rts-btn btn-primary with-arrow">Comfort 365 ლიცენიზრებული გაცის კომპანია</a>
+                                    @auth
+                                        <form action="{{route('logout')}}" method="post">
+                                            @csrf
+                                            <button type="submit" style="margin-left: 10px" class=" rts-btn btn-primary with-arrow mt-1">გასვლა</button>
+                                        </form>
+                                    @endauth
+
                                 </div>
                                 <!-- button area end -->
                             </div>
@@ -122,7 +129,8 @@
                                 <div style="flex-direction: column!important;" class="actions-area">
 {{--                                    <p style="font-size: 24px;color: black;font-weight: bolder;margin-bottom: 0">Comfort 365</p>--}}
                                     <div class="btn-area-header mt-1">
-                                        <a href="tel:551507697" class="rts-btn btn-primary with-arrow mt-1">Comfort 365</a>
+                                        <a href="tel:593365365" class="rts-btn btn-primary with-arrow mt-1">Comfort 365</a>
+
                                     </div>
 {{--                                    <p class="text-center">წყლისა და გაზის კომპანია</p>--}}
 {{--                                    <div class="search-btn" id="search">--}}

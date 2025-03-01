@@ -30,7 +30,7 @@
                                 </div>
                                 <div class="contact-info">
 {{--                                    <p>Email Us Here</p>--}}
-                                    <a href="mailto:comfort365@gmail.com">comfort365@gmail.com</a>
+                                    <a href="mailto:comfort365@gmail.com">comfort365.ge@gmail.com</a>
                                 </div>
                             </div>
                             <!-- single contact area end -->
@@ -201,14 +201,14 @@
     </div>
 </div>
 
-<div class="copyright-footer-one">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="wrapper">
-                    <p>Copyright 2025. All Rights Reserved.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+{{--<div class="copyright-footer-one">--}}
+{{--    <div class="container">--}}
+{{--        <div class="row">--}}
+{{--            <div class="col-lg-12">--}}
+{{--                <div class="wrapper">--}}
+{{--                    <p>Copyright 2025. All Rights Reserved.</p>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
+{{--    </div>--}}
+{{--</div>--}}
